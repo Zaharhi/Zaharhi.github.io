@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cow Clicker</title>
+    <link rel="stylesheet" href="cow.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cow Milking Factory</h1>
+        <div class="stats">
+            <p>Cows: <span id="cowCount">0</span></p>
+            <p>Milk: <span id="milkCount">0</span></p>
+            <p>Cheese: <span id="cheeseCount"></span></p>
+            <p>Money: $<span id="moneyCount">0</span></p>
+        </div>
+        <div class="pasture" id="pasture">
+            <!-- Placeholder for cows -->
+        </div>
+        <div class="industry">
+            <h2>Industry District</h2>
+            <div class="cheese-factories">
+                <!-- Placeholder for cheese factories -->
+            </div>
+            <button onclick="buyCheeseFactory()">Buy Cheese Factory ($200)</button>
+        </div>
+        <div class="actions">
+            <button onclick="buyCheese()">Make Cheese (5 Milk)</button>
+            <button onclick="sellCheese()">Sell Cheese</button>
+            <button onclick="harvestCow()">Harvest Cow (Sell Steak)</button>
+            <button onclick="upgradeMilkProduction()">Upgrade Milk Production ($50)</button>
+            <button onclick="upgradeBreedingChance()">Upgrade Breeding Chance ($100)</button>
+            <button onclick="buyPasture('sheep')">Sheep Shearing Facility</button>
+            <button onclick="buyPasture('pig')">Pig Slaughter House</button>
+        </div>
+        <div class="navigation">
+            <!-- Placeholder for navigating back to the main index.html page -->
+            <a href="../clicker.html">Back to Main</a>
+        </div>
+    </div>
+
+    <script src="cow.js"></script>
+</body>
+</html>

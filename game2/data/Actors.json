@@ -1,0 +1,9 @@
+[
+null,
+{"id":1,"battlerName":"newmc","characterIndex":0,"characterName":"newmc","classId":11,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"newmc","traits":[],"initialLevel":1,"maxLevel":99,"name":"Zahavi","nickname":"Daddy","note":"","profile":"Hot DILF"},
+{"id":2,"battlerName":"Body-SV-Monster-5-Foxman","characterIndex":4,"characterName":"Monster","classId":5,"equips":[1,0,0,9,0],"faceIndex":4,"faceName":"Monster","traits":[],"initialLevel":1,"maxLevel":99,"name":"Big Pappa","nickname":"Choppa","note":"","profile":""},
+{"id":3,"battlerName":"newfox","characterIndex":3,"characterName":"Nature","classId":9,"equips":[0,0,0,0,0],"faceIndex":3,"faceName":"Nature","traits":[{"code":52,"dataId":7,"value":1}],"initialLevel":1,"maxLevel":99,"name":"Butterdog","nickname":"Dog with the butter","note":"","profile":"The dog with butter on him.\nActually, he might not be a dog."},
+{"id":4,"battlerName":"dobermansv-removebg-preview","characterIndex":0,"characterName":"Nature","classId":9,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Nature","traits":[{"code":52,"dataId":7,"value":1}],"initialLevel":1,"maxLevel":99,"name":"Choppa","nickname":"Good Boy","note":"","profile":"He's only bitten a couple of people."},
+{"id":5,"battlerName":"owl","characterIndex":0,"characterName":"","classId":10,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"owl-removebg-preview (1)","traits":[{"code":64,"dataId":5,"value":1}],"initialLevel":10,"maxLevel":10,"name":"Hagrid","nickname":"","note":"","profile":""},
+{"id":6,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
+]
