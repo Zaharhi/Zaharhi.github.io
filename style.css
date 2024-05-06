@@ -84,6 +84,7 @@ body {
     text-shadow: 1px -1px 4px gray;
     border-style: groove;
     border-width: 5px;
+    overflow: scroll;
 }
 
 .linkTitle {
