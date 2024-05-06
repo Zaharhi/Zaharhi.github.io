@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheep Pasture</title>
+    <link rel="stylesheet" href="sheep.css">
+    <link rel="icon" href="../icon/hopfulicon-removebg-preview.ico">
+</head>
+<body>
+    <div class="container">
+        <h1>Sheep Shearing Facility</h1>
+        <div class="stats">
+            <p>Sheep: <span id="sheepCount">0</span></p>
+            <p>Wool: <span id="woolCount">0</span></p>
+            <p>Yarn: <span id="yarnCount">0</span></p>
+            <p>Money: $<span id="moneyCount">0</span></p>
+        </div>
+        <div class="pasture" id="pasture">
+            <!-- Placeholder for sheep -->
+        </div>
+        <div class="actions">
+            <button onclick="buySheep()">Buy Sheep ($100)</button>
+            <button onclick="shearSheep()">Shear Sheep (Produce Wool)</button>
+            <button onclick="makeYarn()">Make Yarn (Use Wool)</button>
+            <button onclick="sellYarn()">Sell Yarn ($10)</button> <!-- New button -->
+            <button onclick="buyPasture('cow')">Cow Milking Factory</button>
+            <button onclick="buyPasture('pig')">Pig Slaughter House</button>
+        </div>
+        <div class="navigation">
+            <!-- Placeholder for navigating back to the main index.html page -->
+            <a href="../clicker.html">Back to Main</a>
+        </div>
+    </div>
+
+    <script src="sheep.js"></script>
+</body>
+</html>

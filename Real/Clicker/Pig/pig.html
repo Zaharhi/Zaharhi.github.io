@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pig Slaughter House</title>
+    <link rel="stylesheet" href="pig.css">
+    <link rel="icon" href="../icon/hopfulicon-removebg-preview.ico">
+</head>
+<body>
+    <div class="container">
+        <h1>Pig Pasture</h1>
+        <div class="stats">
+            <p>Pigs: <span id="pigCount">0</span></p>
+            <p>Ham: <span id="hamCount">0</span></p>
+            <p>Bacon: <span id="baconCount">0</span></p>
+            <p>Money: $<span id="moneyCount">0</span></p>
+        </div>
+        <div class="pasture" id="pasture">
+            <!-- Placeholder for pigs -->
+        </div>
+        <div class="actions">
+            <button onclick="killPig()">Kill Pig (Produce Ham)</button>
+            <button onclick="makeBacon()">Make Bacon (Use Ham)</button>
+            <button onclick="sellBacon()">Sell Bacon ($5 each)</button>
+            <button onclick="increaseBreeding()">Increase Breeding ($50)</button> <!-- New button -->
+            <button onclick="increaseBreedingSpeed()">Increase Breeding Speed ($100)</button> <!-- New button -->
+            <button onclick="buyPasture('cow')">Cow Milking Factory</button>
+            <button onclick="buyPasture('sheep')">Sheep Shearing Facility</button>
+        </div>
+        <div class="navigation">
+            <!-- Placeholder for navigating back to the main index.html page -->
+            <a href="../clicker.html">Back to Main</a>
+        </div>
+    </div>
+
+    <script src="pig.js"></script>
+</body>
+</html>

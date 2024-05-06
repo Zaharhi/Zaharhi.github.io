@@ -1,0 +1,49 @@
+#content {
+    width: 70%;
+    background-color: blueviolet;
+    margin: auto;
+}
+
+.smallBoxes {
+    width: 40%;
+    background-color: aquamarine;
+    margin: 10px;
+    text-align: left;
+    border-color: white;
+    border-style: double;
+    border-width: 10px;
+
+}
+
+.bigBox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.smallBoxes img {
+    width: 25%;
+    object-fit: contain;
+    float: left;
+    margin: 5px;
+    border-color: white;
+    border-style: double;
+    border-width: 10px;
+}
+body{
+    background-color: aqua;
+}
+#link {
+    border: 5px;
+    border-color:lightblue;
+    border-style: double;
+    margin: 0px 20px 0px 20px;
+    background-color: dodgerblue;
+    text-align: center ;
+
+
+}
+
+.moo {
+    display: inline-block;
+    padding: 10px;
+}

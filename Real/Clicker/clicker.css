@@ -1,0 +1,18 @@
+.actions button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.actions button:hover {
+    background-color: #ddd;
+    text-align: center;
+}
+.actions{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
